@@ -19,7 +19,7 @@ public class MyClass {
 			Document document = documentBuilder.parse(xmlFile);
 
 			Element root = document.getDocumentElement();
-			System.out.println("Корневой элемент: " + root.getNodeName());
+			System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " + root.getNodeName());
 			System.out.println("----------------------");
 
 			NodeList nodeList = root.getChildNodes();
@@ -37,7 +37,7 @@ public class MyClass {
 					
 					System.out.println("Title: " + element.getElementsByTagName("title").item(0)
 							.getChildNodes().item(0).getNodeValue());
-					
+
 					System.out.println("----------------------");
 				}
 			}
